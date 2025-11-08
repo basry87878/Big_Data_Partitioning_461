@@ -1,38 +1,42 @@
 # Big_Data_Partitioning_461
 Big Data storage and partitioning system test
 
-
 In this project, we simulate a Big Data storage and partitioning system using a real-world dataset.
-The goal is to explore how different data partitioning techniques affect data retrieval performance.
+The main goal is to explore how different data partitioning techniques influence data retrieval performance and scalability.
 
-The dataset used in this project is available on Google Drive:
-Heart Disease Dataset: https://drive.google.com/file/d/1mKJTBpewpqo6f63si58oARqIK62mJW3h/view?usp=sharing
+📂 Dataset
+
+We use the Heart Disease Dataset, publicly available on Google Drive:
+Heart Disease Dataset (CSV)
 
 🎯 Objectives
 
-Store columnar data from the dataset using pandas and numpy.
+Store columnar data using pandas and numpy to simulate a columnar Big Data system.
 
-Implement three partitioning methods commonly used in Big Data systems:
+Implement and test three partitioning techniques:
 
-Range Partitioning – dividing data based on value ranges (e.g., age intervals).
+Range Partitioning – divide records based on continuous value ranges (e.g., age intervals).
 
-List Partitioning – dividing data based on categorical attributes (e.g., target values).
+List Partitioning – separate records based on categorical attributes (e.g., target classes).
 
-Hash Partitioning – distributing data based on hash functions (e.g., age % n).
+Hash Partitioning – distribute records across partitions using hash functions (e.g., age % n).
 
-Measure and compare search performance:
+Measure data retrieval performance:
 
-Compute the number of iterations required to locate a specific element (e.g., age = 77)
-in the original dataset versus the partitioned datasets.
+Calculate the number of iterations required to find a specific element (e.g., age = 77) before and after partitioning.
 
-Append new records to each partitioning type to simulate data insertion operations.
+Simulate data insertion by appending new records into each partition type.
 
-Visualize and compare the performance of the different partitioning techniques using bar charts.
+Visualize and compare the performance of all partitioning techniques using bar charts.
 
 💡 Expected Outcome
 
-By the end of this project, you will:
+By completing this project, you will:
 
-Understand how different partitioning strategies organize data.
-Observe how partitioning can improve data retrieval efficiency.
-Simulate real-world data before deployment in Big Data systems like Apache Hive, Spark, and distributed databases.
+Understand how Range, List, and Hash partitioning organize and store data.
+
+Observe how partitioning can reduce search iterations and improve lookup efficiency.
+
+Gain insight into how these methods prepare data for use in distributed Big Data frameworks such as Apache Hive, Spark, or Hadoop.
+
+Build a reproducible experiment demonstrating how partitioning strategies impact performance in a simplified environment.
