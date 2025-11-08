@@ -6,8 +6,7 @@ The main goal is to explore how different data partitioning techniques influence
 
 📂 Dataset
 
-We use the Heart Disease Dataset, publicly available on Google Drive:
-Heart Disease Dataset (CSV)
+We use the Heart Disease Dataset, publicly available on Google Drive: https://drive.google.com/file/d/1mKJTBpewpqo6f63si58oARqIK62mJW3h/view?usp=sharing
 
 🎯 Objectives
 
