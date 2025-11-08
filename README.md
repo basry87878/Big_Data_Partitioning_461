@@ -33,9 +33,6 @@ Visualize and compare the performance of all partitioning techniques using bar c
 By completing this project, you will:
 
 Understand how Range, List, and Hash partitioning organize and store data.
-
 Observe how partitioning can reduce search iterations and improve lookup efficiency.
-
-Gain insight into how these methods prepare data for use in distributed Big Data frameworks such as Apache Hive, Spark, or Hadoop.
-
+Gain insight into how these methods prepare data before deployment.
 Build a reproducible experiment demonstrating how partitioning strategies impact performance in a simplified environment.
